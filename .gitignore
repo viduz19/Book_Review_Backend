@@ -1,0 +1,42 @@
+# Node.js dependencies
+/node_modules/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Debugger directories
+.vscode/
+.idea/
+
+# Environment variables file (for sensitive data like DB URI, API keys)
+.env
+
+# MongoDB local files
+*.db
+*.mongodb
+
+# Build output (if any build process like Babel or TypeScript)
+dist/
+build/
+
+# Operating System files
+.DS_Store   # macOS
+Thumbs.db   # Windows
+
+# npm package-lock and yarn lock files
+package-lock.json
+yarn.lock
+
+# IDE or editor folders
+.vscode/
+.idea/
+
+# Test coverage
+/coverage/
+
+# Temporary files
+*.swp
